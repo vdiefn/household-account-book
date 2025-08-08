@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --build tsconfig.app.json && vite build",
+    "build": "npx vue-tsc --build tsconfig.app.json && vite build",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build tsconfig.app.json",
@@ -29,7 +29,7 @@
     "eslint": "^9.31.0",
     "eslint-plugin-vue": "~10.3.0",
     "jiti": "^2.4.2",
-    "npm-run-all2": "^8.0.4",
+    "npm-run-all": "^8.0.4",
     "typescript": "~5.8.0",
     "unplugin-auto-import": "^20.0.0",
     "unplugin-vue-components": "^29.0.0",
